@@ -2450,10 +2450,21 @@
     lodash-es "^4.17.15"
     vue "^2.6.11"
 
-"@vue-storefront/middleware@~2.4.1":
-  version "2.4.5"
-  resolved "https://registry.yarnpkg.com/@vue-storefront/middleware/-/middleware-2.4.5.tgz#00a8a8dd6a6a5726f3491551cfdf4d6238578bb9"
-  integrity sha512-rsR1p3Y3F0L+li+A5ejwF4i1cGvi9STx3CpPfBFwNtrm0q+4pgLu8MyL9dUG5bgJTGicyf5ri89gyvJM8IxS3w==
+"@vue-storefront/core@~2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@vue-storefront/core/-/core-2.5.1.tgz#fa7f091ecaed6e5523dae5c54b4b2955b4139cca"
+  integrity sha512-uht8QUS37JQ0+Y9sunZpcrs+kygqTpNJ8W4tqasOFiGy/KHVZcVZku4cOib0eMVHhOsBKrpXK5rg6CH7OE7UOQ==
+  dependencies:
+    axios "0.21.1"
+    express "^4.17.1"
+    is-https "^3.0.2"
+    lodash-es "^4.17.15"
+    vue "^2.6.11"
+
+"@vue-storefront/middleware@~2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@vue-storefront/middleware/-/middleware-2.5.1.tgz#940a522e1336a42bd34ba3ffcf0f062a216601ee"
+  integrity sha512-wBB5UeXBfjCzisdOhaxVizYogemyMO3gnfP9sdiWOH1frv4KPumcY2Qlc8srP5FX/eroGmgNciTPdFIqzk60qQ==
   dependencies:
     consola "2.15.3"
     cookie-parser "^1.4.5"
